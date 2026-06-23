@@ -4,7 +4,7 @@ const api = axios.create({
   baseURL:
     window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
       ? 'http://localhost:3450/api'
-      : 'https://backend-repo-for-ai-code-explainer.onrender.com/api',
+      : 'https://notes-management-system-2-vzab.onrender.com',
 });
 
 export const loginAPI = async (data) => {
