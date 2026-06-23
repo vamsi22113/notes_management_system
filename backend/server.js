@@ -9,7 +9,7 @@ const app = express();
 
 // ── Middlewares ──
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175', 'http://127.0.0.1:5173', 'https://notesmanagementsystemm.netlify.app/'],
+  origin: ['http://127.0.0.1:5173', 'https://notesmanagementsystemm.netlify.app'],
   credentials: true,
 }));
 app.use(express.json());
